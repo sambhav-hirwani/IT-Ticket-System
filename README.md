@@ -28,7 +28,13 @@ The system allows users to raise support tickets and enables admin users to mana
 5. Visit: http://localhost/ticket_system/
 
 ## Screenshots
-
 ![Login](screenshots/login.png)
 ![Dashboard](screenshots/dashboard.png)
 ![Admin](screenshots/admin.png)
+
+## Database Setup
+1. Open phpMyAdmin.
+2. Create a new database named `ticket_db`.
+3. Import the provided SQL file from the `database` folder.
+4. Start Apache & MySQL in XAMPP.
+5. Access the project at: http://localhost/ticket_system/
